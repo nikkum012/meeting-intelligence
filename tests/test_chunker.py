@@ -2,7 +2,7 @@ from app.pipeline.chunker import chunk_transcript
 
 
 def test_chunker_creates_overlapping_chunks():
-    transcript = "A" * 40000
+    transcript = "AB" * 20000
 
     chunks = chunk_transcript(
         transcript,
