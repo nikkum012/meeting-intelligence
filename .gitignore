@@ -1,0 +1,24 @@
+# Private evaluation data
+project_data.json
+private_data/
+*.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Generated outputs
+outputs/
+results/
+
+# OS files
+.DS_Store
